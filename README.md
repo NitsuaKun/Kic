@@ -8,7 +8,7 @@ Ideally I would like to release this on Steam in the future. (and as a trilogy..
 
 -=# Enemy, Pod, Cube, Byte #=-
 
-A few of the enemy classes from my game, Kic.
+A few of the enemy classes I have completed thus far.
 I used virtual overloading (polymorphism) for enemies since different enemies have different AI and display properties.
 The Enemy class is the base class while Pod, Cube, and Byte are all the derived classes.
 
