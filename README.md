@@ -27,5 +27,5 @@ It essentially overlaps the 2 sprites (determined by their current position in-g
 I was hesitant to post this file, since it's still a  work in progress.
 This is where everything associated with Kic is handled.
 Actions, animation, graphical displaying, hit detection, controller inputs, even stuff like the flowing scarf Kic wears that flows and is effected by gravity.
-Just mind the mess, lots of commented-out sections for future reference and whatnot.
+Just don't mind the mess, lots of commented-out sections for future reference and whatnot.
 
