@@ -20,11 +20,11 @@ The XML class holds numerous functions for reading files such as reading and sav
 -=# HitDetection #=-
 
 This class handles any hit detection needed between 2 sprites.
-It essentially overlaps the 2 sprites (determined by their current position in-game) and then goes through all the overlapping areas and looks for any spots where 2 non-transparent pixels are touching.
+Can be as simple as checking the collision of 2 rectangles, or all the way to pixel-perfect hit detection. For the pixel-perfect detection, it essentially overlaps the 2 sprites (determined by their current position in-game) and then goes through all the overlapping areas and looks for any spots where 2 non-transparent pixels are touching.
 
 -=# KIC_Object #=-
 
-I was hesitant to post this file, since it's still a  work in progress.
+I was hesitant to post this file, since it's still a work in progress.
 This is where everything associated with Kic is handled.
 Actions, animation, graphical displaying, hit detection, controller inputs, even stuff like the flowing scarf Kic wears that flows and is effected by gravity.
 Just don't mind the mess, lots of commented-out sections for future reference and whatnot.
